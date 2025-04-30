@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(250,243,93);
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+ol,ul{
+    list-style: none;
+}
+.header {
+    height: 80px;
+    background-color: rgb(251,180,204);
+}
+.navbar {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: right;
+    flex-wrap: wrap;
+    padding: 0 2rem;
+}
+.menu_hamburguesa{
+    display: none;
+}
+.menu_hamburguesa:checked + .ul_links {
+    height: calc(100vh - 80px);
+}
+
+.list_icon {
+    color: black;
+    cursor: pointer;
+}
+.ul_links {
+    width: 100%;
+    background-color: rgb(251,180,204);
+    position: absolute;
+    top: 80px;
+    left: 0;
+    height: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+    transition: all .3s;
+}
+
+.link {
+    font-size: 3em;
+    color: black;
+    font-weight: bold;
+}
+
+@media (min-width:768px){
+    .labe_hamburguesa {
+        display: none;
+    }
+    .ul_links{
+        position: static;
+        width: auto;
+        height: auto;
+        flex-direction: row;
+        gap: 2rem;
+    }
+    .link{
+        font-size: 1.2rem;
+        transition: all .3s;
+        padding: .2rem .7rem;
+    }
+    .link:hover{
+        background-color: rgb(251,180,204);
+    }
+}
+
+.PagIni {
+    background-color: rgb(251,180,204);
+    height: 600px;
+}
