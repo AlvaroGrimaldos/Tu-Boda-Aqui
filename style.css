@@ -142,7 +142,7 @@ ol,ul{
     background-color: rgb(251,243,93);
     border: 2px solid;
     border-top-color: black;
-    height: 800px;
+    height: 1000px;
 }
 
 .icon1{
@@ -185,4 +185,34 @@ ol,ul{
     position: absolute;
     top: 52%;
     margin-left: 65%;
+}
+
+.Nosotros {
+    display: flex;
+    flex-direction: row;
+}
+
+.imgnosotros {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    rotate: 25rad;
+}
+
+.imgfiesta {
+    width: 30%;
+    padding: 5px;
+}
+
+.texto {
+    width: 40%;
+    margin-right: 10%;
+}
+
+.texto > p {
+    font-size: 110%;
+}
+.hola {
+    width: 80%;
 }
