@@ -268,3 +268,59 @@ ol,ul{
     margin-top: -20%;
 }
 
+/* Seccion Galeria */
+.Galeria {
+    height: 100vh;
+    width: 100vw;
+}
+
+.PartSup {
+    background-color: white;
+    height: 65%;
+}
+
+.PartInf {
+    background-color: rgba(255,101,65,255);
+    height: 35%
+}
+
+/* .ImgSup {
+
+}
+
+.ImgInf {
+z
+} */
+
+.img1 {
+    width: 15%;
+    
+}
+
+.img2 {
+    width: 15%;
+}
+
+.img3 {
+    width: 15%;
+}
+
+.img4 {
+    width: 15%;
+}
+
+.img5 {
+    width: 15%;
+}
+
+.img6 {
+    width: 15%;
+}
+
+.img7 {
+    width: 15%;
+}
+
+.img8 {
+    width: 15%;
+}
