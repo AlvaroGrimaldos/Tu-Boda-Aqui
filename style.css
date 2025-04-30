@@ -1,20 +1,35 @@
+/* Se importan las fuentes de texto */
+@font-face {
+    font-family: "gulfs-display";
+    src: url(fuentes/GulfsDisplay-Normal.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "anybody";
+    src: url(fuentes/Anybody-Black.ttf);
+}
+
 body{
     margin: 0px;
+    display: flex;
+    flex-direction: column;
 }
-/* a{
+a{
     text-decoration: none;
 }
 ol,ul{
     list-style: none;
 }
 .header {
-    height: 80px;
+    height: 50px;
     background-color: rgb(251,180,204);
 }
 .navbar {
-    height: 100%;
+    height: 10px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: end;
     align-items: right;
     flex-wrap: wrap;
     padding: 0 2rem;
@@ -44,11 +59,11 @@ ol,ul{
     align-items: center;
     gap: 3rem;
 
-    transition: all .3s;
+    /* transition: all .3s; */
 }
 
 .link {
-    font-size: 3em;
+    font-size: 1rem;
     color: black;
     font-weight: bold;
 }
@@ -66,16 +81,108 @@ ol,ul{
     }
     .link{
         font-size: 1.2rem;
-        transition: all .3s;
+        /* transition: all .3s; */
         padding: .2rem .7rem;
     }
     .link:hover{
         background-color: rgb(251,180,204);
     }
-} */
+}
 
-.PagIni {
+.Inicial_Menu {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'gulfs-display', sans-serif;
+}
+
+.PagSup {
     background-color: rgb(251,180,204);
-    height: 600px;
+    height: 60%;
     padding: 5px;
+}
+
+.Titulo {
+    font-size: 3vw;
+    line-height: 0.9;
+    text-align: center;
+    color: rgb(23,94,239);
+}
+
+.imgprin {
+    border: 1px solid black;
+    border-radius: 35%;
+    margin-left: 40%;
+    height: 65%;
+    width: 20%;
+    position: absolute;
+    top: 35%;
+}
+
+.imgder {
+    border: 1px solid black;
+    border-radius: 10%;
+    margin-left: 75%;
+    position: absolute;
+    top: 23%;
+    width: 11%;
+    height: 30%;
+}
+
+.imgizq {
+    border: 1px solid black;
+    border-radius: 10%;
+    position: absolute;
+    margin-left: 12%;
+    top: 45%;
+    width: 18%; 
+    height: 45%;
+}
+
+.PagInf {
+    background-color: rgb(251,243,93);
+    border: 2px solid;
+    border-top-color: black;
+    height: 800px;
+}
+
+.icon1{
+    width: 5%;
+    position: absolute;
+    top: 42%;
+    margin-left: 71.7%;
+}
+
+.icon2 {
+    width: 3%;
+    position: absolute;
+    top: 46%;
+    margin-left: 31.8%;
+}
+
+.icon3 {
+    width: 2%;
+    position: absolute;
+    top: 27%;
+    margin-left: 27%;
+}
+
+.icon4 {
+    width: 2%;
+    position: absolute;
+    top: 45.5%;
+    margin-left: 66%;
+}
+
+.icon5 {
+    width: 7%;
+    position: absolute;
+    top: 56%;
+    margin-left: 36.5%;
+}
+
+.icon6 {
+    width: 10%;
+    position: absolute;
+    top: 52%;
+    margin-left: 65%;
 }
