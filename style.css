@@ -11,21 +11,27 @@
     src: url(fuentes/Anybody-Black.ttf);
 }
 
+/* Para ordenar las secciones que salgan en forma de columnas */
 body{
     margin: 0px;
     display: flex;
     flex-direction: column;
 }
+
+/* Estilo menu hamburguesa */
 a{
     text-decoration: none;
 }
+
 ol,ul{
     list-style: none;
 }
+
 .header {
     height: 50px;
     background-color: rgb(251,180,204);
 }
+
 .navbar {
     height: 10px;
     display: flex;
@@ -34,9 +40,11 @@ ol,ul{
     flex-wrap: wrap;
     padding: 0 2rem;
 }
+
 .menu_hamburguesa{
     display: none;
 }
+
 .menu_hamburguesa:checked + .ul_links {
     height: calc(100vh - 80px);
 }
@@ -45,6 +53,7 @@ ol,ul{
     color: black;
     cursor: pointer;
 }
+
 .ul_links {
     width: 100%;
     background-color: rgb(251,180,204);
@@ -68,6 +77,7 @@ ol,ul{
     font-weight: bold;
 }
 
+/* Para que se recoja el menu hamburguesa */
 @media (min-width:768px){
     .labe_hamburguesa {
         display: none;
@@ -89,6 +99,7 @@ ol,ul{
     }
 }
 
+/* Seccion Inicial y menu */
 .Inicial_Menu {
     height: 100vh;
     width: 100vw;
@@ -97,7 +108,7 @@ ol,ul{
 
 .PagSup {
     background-color: rgb(251,180,204);
-    height: 60%;
+    height: 65%;
     padding: 5px;
 }
 
@@ -110,10 +121,10 @@ ol,ul{
 
 .imgprin {
     border: 1px solid black;
-    border-radius: 35%;
-    margin-left: 40%;
-    height: 65%;
-    width: 20%;
+    border-radius: 220px;
+    margin-left: 37.7%;
+    height: 66%;
+    width: 24%;
     position: absolute;
     top: 35%;
 }
@@ -140,9 +151,9 @@ ol,ul{
 
 .PagInf {
     background-color: rgb(251,243,93);
-    border: 2px solid;
+    border: 2px solid rgb(251,243,93);
     border-top-color: black;
-    height: 1000px;
+    height: 1090px;
 }
 
 .icon1{
@@ -155,39 +166,45 @@ ol,ul{
 .icon2 {
     width: 3%;
     position: absolute;
-    top: 46%;
+    top: 40%;
     margin-left: 31.8%;
 }
 
 .icon3 {
     width: 2%;
     position: absolute;
-    top: 27%;
+    top: 21%;
     margin-left: 27%;
 }
 
 .icon4 {
     width: 2%;
     position: absolute;
-    top: 45.5%;
+    top: 50%;
     margin-left: 66%;
 }
 
 .icon5 {
     width: 7%;
     position: absolute;
-    top: 56%;
-    margin-left: 36.5%;
+    top: 60%;
+    margin-left: 34%;
 }
 
 .icon6 {
     width: 10%;
     position: absolute;
-    top: 52%;
+    top: 58%;
     margin-left: 65%;
 }
 
+/* Seccion Nosotros */
 .Nosotros {
+    height: 100vh;
+    width: 100vw;
+}
+
+.filas {
     display: flex;
     flex-direction: row;
 }
@@ -201,7 +218,7 @@ ol,ul{
 }
 
 .imgfiesta {
-    width: 30%;
+    width: 43%;
     padding: 5px;
 }
 
@@ -216,3 +233,38 @@ ol,ul{
 .hola {
     width: 80%;
 }
+
+.icNosotrosSup {
+    display: flex;
+    flex-direction: row;
+}
+
+.ic1nos {
+    padding: 1%;
+}
+
+.ic2nos {
+    position: absolute;
+    margin-left: 83%;
+    text-align: left;
+}
+
+.icNosotrosInf {
+    display: flex;
+    flex-direction: row;
+}
+.ic3nos {
+    padding: 1%;
+}
+
+.ic4nos {
+    position: absolute;
+    margin-left: 97%;
+    
+}
+
+.icnupcialista {
+    width: 10%;
+    margin-top: -20%;
+}
+
