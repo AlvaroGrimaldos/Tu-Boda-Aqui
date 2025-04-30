@@ -1,8 +1,7 @@
 body{
-    background-color: rgb(250,243,93);
     margin: 0px;
 }
-a{
+/* a{
     text-decoration: none;
 }
 ol,ul{
@@ -73,9 +72,10 @@ ol,ul{
     .link:hover{
         background-color: rgb(251,180,204);
     }
-}
+} */
 
 .PagIni {
     background-color: rgb(251,180,204);
     height: 600px;
+    padding: 5px;
 }
