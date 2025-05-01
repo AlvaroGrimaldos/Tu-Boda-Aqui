@@ -99,6 +99,17 @@ ol,ul{
     }
 }
 
+/* Boton chat */
+.fixed {
+    position: fixed;
+    right: 2%;
+    top: 89%;
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 1%;
+    background-color: rgb(251,243,93);
+}
+
 /* Seccion Inicial y menu */
 .Inicial_Menu {
     height: 100vh;
