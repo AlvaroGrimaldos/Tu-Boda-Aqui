@@ -276,7 +276,7 @@ ol,ul{
 
 .PartSup {
     background-color: white;
-    height: 65%;
+    height: 60%;
 }
 
 .PartInf {
@@ -284,43 +284,66 @@ ol,ul{
     height: 35%
 }
 
-/* .ImgSup {
-
-}
-
-.ImgInf {
-z
-} */
-
 .img1 {
-    width: 15%;
-    
+    width: 14%;
+    border: 1px solid black;
+    border-radius: 20%;
+    margin-left: 3%;
 }
 
 .img2 {
-    width: 15%;
+    width: 14%;
+    border: 1px solid black;
+    border-radius: 20%;
+    margin-left: 2%;
 }
 
 .img3 {
-    width: 15%;
+    width: 28%;
+    border: 1px solid  black;
+    border-radius: 15%;
+    margin-left: 2%;
 }
 
 .img4 {
-    width: 15%;
+    width: 14%;
+    border: 1px solid black;
+    border-radius: 20%;
+    margin-left: 2%;
+}
+
+.img9 {
+    width: 14%;
+    border: 1px solid black;
+    border-radius: 20%;
+    margin-left: 2%;
 }
 
 .img5 {
-    width: 15%;
+    width: 24.5%;
+    border: 1px solid black;
+    border-radius: 20%;
+    margin-left: 1.5%;
+    margin-top: 1%;
 }
 
 .img6 {
-    width: 15%;
+    width: 27.5%;
+    border: 1px solid black;
+    border-radius: 20%;
+    margin-left: 1.5%;
 }
 
 .img7 {
-    width: 15%;
+    width: 25.5%;
+    border: 1px solid black;
+    border-radius: 20%;
+    margin-left: 1.5%;
 }
 
 .img8 {
-    width: 15%;
+    width: 13.5%;
+    border: 1px solid black;
+    border-radius: 20%;
+    margin-left: 1.5%;
 }
