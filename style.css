@@ -347,3 +347,109 @@ ol,ul{
     border-radius: 20%;
     margin-left: 1.5%;
 }
+
+/* Seccion Precios */
+.Precios {
+    height: 100vh;
+    width: 100vw;
+
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(4, 25%);
+    grid-template-areas: 'a1 a1 a2 a3 a4'
+                        'a5 a5 a2 a3 a4'
+                        'a6 a7 a7 a8 a8'
+                        'a6 a7 a7 a9 a9';
+
+    font-family: 'gulfs-display';
+    line-height: 0.9;
+}
+
+.a1 {
+    grid-area: a1;
+    background-color: rgba(255,180,206,255);
+    border: 1px solid black;
+    color: rgba(255,101,65,255);
+    font-size: 4vw;
+    line-height: 0.9;
+    padding: 5%;
+}
+
+.a2 {
+    grid-area: a2;
+    background-color: rgba(255,244,96,255);
+    border: 1px solid black;
+    color: rgba(255,101,65,255);
+    text-align: center;
+    font-size: 1.5vw;
+    padding-top: 10%;
+}
+
+.a3 {
+    grid-area: a3;
+    background-color: rgba(255,255,255,255);
+    border: 1px solid black;
+    color: rgba(3,93,255,255);
+    text-align: center;
+    font-size: 1.5vw;
+    padding-top: 10%;
+}
+
+.a4 {
+    grid-area: a4;
+    background-color: rgba(3,93,255,255);
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+    font-size: 1.5vw;
+    padding-top: 10%;
+}
+
+.a5 {
+    grid-area: a5;
+    background-color: rgba(255,180,206,255);
+    border: 1px solid black;
+    color: rgba(3,93,252,255);
+    font-size: 2vw;
+    padding: 10%;
+}
+
+.a6 {
+    grid-area: a6;
+    background-color: rgba(255,244,96,255);
+    border: 1px solid black;
+    color: rgba(3,93,255,255);
+    text-align: center;
+    font-size: 1.5vw;
+    padding-top: 10%;
+}
+
+.a7 {
+    grid-area: a7;
+    background-color: rgba(0,0,0,255);
+    border: 1px solid black;
+    color: white;
+    font-size: 1.5vw;
+    padding: 9%;
+}
+
+.a8 {
+    grid-area: a8;
+    background-color: rgba(255,101,65,255);
+    border: 1px solid black;
+    color: rgba(255,180,206,255);
+    font-size: 1.5vw;
+    padding: 6%;
+    padding-left: 10%;
+}
+
+.a9{
+    grid-area: a9;
+    background-color: rgba(255,180,206,255);
+    border: 1px solid black;
+    font-size: 1.5vw;
+    padding: 6%;
+    padding-left: 10%;
+}
+
+/* Seccion Contacto */
