@@ -202,6 +202,8 @@ ol,ul{
 .Nosotros {
     height: 100vh;
     width: 100vw;
+    font-family: 'gulfs-display';
+    background-color: rgb(251,243,93);
 }
 
 .filas {
@@ -229,14 +231,21 @@ ol,ul{
 
 .texto > p {
     font-size: 110%;
+    font-family: sans-serif;
 }
+
+.texto >h2 {
+    text-align: top;
+}
+
 .hola {
     width: 80%;
 }
 
 .icNosotrosSup {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    font-family: anybody;
 }
 
 .ic1nos {
@@ -244,9 +253,9 @@ ol,ul{
 }
 
 .ic2nos {
-    position: absolute;
-    margin-left: 83%;
-    text-align: left;
+    /* position: absolute;
+    /* margin-left: 83%; */
+    /* text-align: left; */
 }
 
 .icNosotrosInf {
@@ -370,7 +379,7 @@ ol,ul{
     background-color: rgba(255,180,206,255);
     border: 1px solid black;
     color: rgba(255,101,65,255);
-    font-size: 4vw;
+    font-size: 3.5vw;
     line-height: 0.9;
     padding: 5%;
 }
@@ -439,7 +448,7 @@ ol,ul{
     border: 1px solid black;
     color: rgba(255,180,206,255);
     font-size: 1.5vw;
-    padding: 6%;
+    padding: 4%;
     padding-left: 10%;
 }
 
@@ -448,8 +457,33 @@ ol,ul{
     background-color: rgba(255,180,206,255);
     border: 1px solid black;
     font-size: 1.5vw;
-    padding: 6%;
+    padding: 4%;
     padding-left: 10%;
 }
 
 /* Seccion Contacto */
+.Contacto {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(255,180,206,255);
+    display: flex;
+}
+
+.imagengrande {
+    padding-top: 10%;
+}
+
+.fecha {
+    padding-top: 18%;
+    font-family: 'gulfs-display';
+}
+
+.fecha > h1 {
+    font-size: 5vw;
+    line-height: 0.9;
+    color: rgba(3,93,255,255);
+}
+
+.fecha > p {
+    font-family: anybody;
+}
