@@ -108,6 +108,7 @@ ol,ul{
     border-radius: 100%;
     padding: 1%;
     background-color: rgb(251,243,93);
+    z-index: 5;
 }
 
 /* Seccion Inicial y menu */
@@ -255,19 +256,30 @@ ol,ul{
 
 .icNosotrosSup {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
     font-family: anybody;
 }
 
 .ic1nos {
     padding: 1%;
+    /* font-size: 2vw; */
+    width: 20%;
 }
 
-/* .ic2nos {
-    /* position: absolute;
-    /* margin-left: 83%; */
-    /* text-align: left; */
- 
+.lovers {
+    padding: 1%;
+    margin-bottom: 5%;
+}
+
+.fine {
+    padding: 1%;
+}
+
+.ic2nos {
+    position: absolute;
+    margin-left: 81.5%;
+    width: 20%;
+}
 
 .icNosotrosInf {
     display: flex;
@@ -439,7 +451,7 @@ ol,ul{
 }
 
 .iconhoras {
-    width: 15%;
+    width: 70%;
 }
 
 .a6 {
@@ -709,3 +721,87 @@ ol,ul{
     font-size: 1vw;
 }
 
+.date {
+    width: 90%;
+}
+
+.politicas {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(9, 5.5vw);
+    grid-template-rows: repeat(1, 100%);
+    grid-template-areas: 'a1 a1 a1 a2 a2 a2 a3 a4 a5';
+    background-color: #fff;
+}
+
+.redes  {
+    grid-area: a1;
+    font-family: anybody;
+    font-size: 0.6vw;
+    text-align: center;
+    padding-top: 5%;
+    border: 1px solid black;
+    background-color: #fff;
+}
+
+.politicaspriv {
+    grid-area: a2;
+    font-family: anybody;
+    font-size: 0.6vw;
+    text-align: center;
+    padding-top: 5%;
+    border: 1px solid black;
+    background-color: #fff;
+
+}
+
+.facebook {
+    display: flex;
+    grid-area: a3;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconfb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    padding: 5%;
+
+}
+
+.ig {
+    display: flex;
+    grid-area: a4;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconig {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+
+
+}
+
+
+.msg {
+    display: flex;
+    grid-area: a5;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconmsg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+
+}
