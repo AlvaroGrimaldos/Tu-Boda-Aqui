@@ -438,6 +438,10 @@ ol,ul{
     padding: 10%;
 }
 
+.iconhoras {
+    width: 15%;
+}
+
 .a6 {
     grid-area: a6;
     background-color: rgba(255,244,96,255);
@@ -688,7 +692,7 @@ ol,ul{
 }
 
 .fecha {
-    padding-top: 18%;
+    padding-top: 10%;
     font-family: 'gulfs-display';
 }
 
@@ -698,6 +702,10 @@ ol,ul{
     color: rgba(3,93,255,255);
 }
 
-.fecha > p {
+.grandia {
+    line-height: 0.9;
     font-family: anybody;
+    color: black;
+    font-size: 1vw;
 }
+
