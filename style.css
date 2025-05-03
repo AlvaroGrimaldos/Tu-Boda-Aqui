@@ -68,7 +68,7 @@ ol,ul{
     align-items: center;
     gap: 3rem;
 
-    /* transition: all .3s; */
+    transition: all .3s;
 }
 
 .link {
@@ -91,7 +91,7 @@ ol,ul{
     }
     .link{
         font-size: 1.2rem;
-        /* transition: all .3s; */
+        transition: all .3s;
         padding: .2rem .7rem;
     }
     .link:hover{
@@ -445,6 +445,7 @@ ol,ul{
     text-align: center;
     font-size: 1.5vw;
     padding-top: 10%;
+    border-right: 0px;
 }
 
 .icondigital {
@@ -507,6 +508,7 @@ ol,ul{
     font-size: 1.5vw;
     padding: 4%;
     padding-left: 10%;
+    border-right: 0px;
 }
 
 .a9{
@@ -515,7 +517,7 @@ ol,ul{
     border: 1px solid black;
     font-size: 1.5vw;
     padding-left: 10%;
-    
+    border-right: 0px;
 }
 
 .iconemail {
@@ -721,10 +723,12 @@ ol,ul{
     width: 100vw;
     background-color: rgba(255,180,206,255);
     display: flex;
+    flex-direction: row;
 }
 
 .imagengrande {
     padding-top: 10%;
+    /* width: 10%; */
 }
 
 .fecha {
@@ -827,4 +831,16 @@ ol,ul{
     align-items: center;
     justify-content: center;
     width: 30%;
+}
+
+/* INICIO CODIGO RESPONSIVE PARA PANTALLAS MENORES A 768px */
+
+@media (max-width: 768px) {
+    body{
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
 }
