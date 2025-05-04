@@ -105,10 +105,18 @@ ol,ul{
     right: 2%;
     top: 89%;
     border: 1px solid black;
-    border-radius: 100%;
+    border-radius: 20vw;
+    height: 40px;
+    width: 40px;
     padding: 1%;
     background-color: rgb(251,243,93);
     z-index: 5;
+}
+
+.chat {
+    /* margin: 10%; */
+    font-size: 1rem;
+    /* padding-right: 8px; */
 }
 
 /* Seccion Inicial y menu */
@@ -724,6 +732,7 @@ ol,ul{
     background-color: rgba(255,180,206,255);
     display: flex;
     flex-direction: row;
+    flex-flow: row wrap;
 }
 
 .imagengrande {
@@ -750,7 +759,7 @@ ol,ul{
 }
 
 .date {
-    width: 90%;
+    width: 47vw;
 }
 
 .politicas {
@@ -841,6 +850,78 @@ ol,ul{
         display: flex;
         flex-direction: column;
     }
+    /* Seccion Inicial y Menu */
+    .Inicial_Menu {
+        height: 100vh;
+        width: 100vw;
+    }
 
+    .Titulo {
+        font-size: 7vw;
+        margin-top: 14vh;
+        position: relative;
+        z-index: 10;
+    }
 
+    .imgprin{
+    border: 1px solid black;
+    border-radius: 220px;
+    margin-left: 22vw;
+    height: 65vh;
+    width: 53vw;
+    position: absolute;
+    top: 35%;
+    }
+
+    .imgder {
+        display: none;
+    }
+
+    .imgizq {
+        display: none;
+    }
+
+    .icon1{
+        width: 16vw;
+        position: absolute;
+        top: 42%;
+        margin-left: 75%;
+    }
+    
+    .icon2 {
+        width: 7%;
+        position: absolute;
+        top: 40%;
+        margin-left: 7vw;
+    }
+    
+    .icon3 {
+        width: 4%;
+        position: absolute;
+        top: 26vh;
+        margin-left: 10vw;
+    }
+    
+    .icon4 {
+        width: 4%;
+        position: absolute;
+        top: 50%;
+        margin-left: 84vw;
+    }
+    
+    .icon5 {
+        display: none;
+    }
+    
+    .icon6 {
+        width: 20vw;
+        position: absolute;
+        top: 89vh;
+        margin-left: 14vw;
+    }
+
+    .fixed {
+
+    }
+    
 }
