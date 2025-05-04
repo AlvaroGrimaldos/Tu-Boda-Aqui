@@ -1001,4 +1001,49 @@ ol,ul{
         margin-top: -7.5vh;
         margin-left: 44vw;
     }
+
+    /* Seccion Galeria */
+    .Galeria {
+        height: 70vh;
+        width: 100vw;
+    }
+
+    .img1 {
+        width: 30vw;
+        margin-top: 2vh;
+    }
+    
+    .img2 {
+        display: none;
+    }
+    
+    .img3 {
+        width: 60vw;
+        margin-top: 2vh;
+    }
+    
+    .img4 {
+        display: none;
+    }
+    
+    .img9 {
+        display: none;
+    }
+    
+    .img5 {
+        width: 58vw;
+        margin-left: 3%;
+    }
+    
+    .img6 {
+        display: none;
+    }
+    
+    .img7 {
+        display: none
+    }
+    
+    .img8 {
+        width: 33vw;
+    }
 }
