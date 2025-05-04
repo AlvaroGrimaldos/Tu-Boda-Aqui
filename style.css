@@ -923,5 +923,82 @@ ol,ul{
     .fixed {
 
     }
+
+    /* Seccion Nosotros */
+    .Nosotros {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .filas {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 5vw;
+        padding-top: 0;
+    }
     
+    .imgnosotros {
+        width: 90vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        rotate: 25rad;
+        padding-top: 3vh;
+    }
+    
+    .imgfiesta {
+        width: 35vw;
+        padding: 5px;
+    }
+    
+    .texto > p {
+        width: 80vw;
+    }
+    
+    .hola {
+        width: 40vw;
+    }
+    
+    .ic1nos {
+        width: 40vw;
+    }
+    
+    .ic2nos {
+        position: relative;
+        margin-left:  83vw;
+        width: 50vw;
+    }
+
+    .lovers {
+        display: none;
+    }
+
+    .fine {
+        display: none;
+    }
+
+    .icNosotrosSup {
+        height: 6vh;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5vh;
+    }
+    
+    .icNosotrosInf {
+        display: none;
+    }
+    
+    .icnupcialista1 {
+        position: absolute;
+        width: 10vw;
+        margin-top: -7vh;
+        margin-left: 35vw;
+    }
+    
+    .icnupcialista2 {
+        width: 8.5vw;
+        position: absolute;
+        margin-top: -7.5vh;
+        margin-left: 44vw;
+    }
 }
