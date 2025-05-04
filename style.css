@@ -947,7 +947,7 @@ ol,ul{
     }
     
     .imgfiesta {
-        width: 35vw;
+        width: 50vw;
         padding: 5px;
     }
     
@@ -991,14 +991,14 @@ ol,ul{
     .icnupcialista1 {
         position: absolute;
         width: 10vw;
-        margin-top: -7vh;
+        margin-top: -6vh;
         margin-left: 35vw;
     }
     
     .icnupcialista2 {
         width: 8.5vw;
         position: absolute;
-        margin-top: -7.5vh;
+        margin-top: -6.5vh;
         margin-left: 44vw;
     }
 
@@ -1045,5 +1045,113 @@ ol,ul{
     
     .img8 {
         width: 33vw;
+    }
+
+    /* Seccion Precios */
+    .Precios {
+        height: 170vh;
+        width: 100vw;
+
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(9, 11.1%);
+        grid-template-areas: 'a1 a1'
+                            'a5 a5'
+                            'a2 a3'
+                            'a2 a3'
+                            'a4 a6'
+                            'a4 a6'
+                            'a7 a7'
+                            'a7 a7'
+                            'a8 a8';
+    }
+
+    .a1 {
+        grid-area: a1;
+        font-size: 7vw;
+    }
+    
+    .a2 {
+        grid-area: a2;
+        font-size: 4vw;
+    }
+    
+    .a3 {
+        grid-area: a3;
+        font-size: 4vw;
+    }
+    
+    .a4 {
+        font-size: 3vw;
+        padding-top: 10%;
+    }
+    
+    .icondigital {
+        width: 40%;
+    }
+    
+    .a5 {
+        grid-area: a5;
+        font-size: 5vw;
+        padding-top: 4vh;
+    }
+    
+    .iconhoras {
+        width: 70%;
+    }
+    
+    .a6 {
+        grid-area: a6;
+        font-size: 4vw;
+    }
+    
+    .a7 {
+        grid-area: a7;
+        font-size: 3.5vw;
+        padding: 9%;
+        padding-top: 5%;
+    }
+    
+    .imgmapa {
+        width: 65%;
+        margin-left: 20%;
+    }
+    
+    .selectregion {
+        font-size: 3vw;
+    }
+    
+    .price {
+        font-size: 10vw;
+    }
+    
+    .a8 {
+        grid-area: a8;
+        font-size: 4vw;
+        padding: 2%;
+    }
+
+    .a9 {
+        display: none;
+    }
+
+    .anillos {
+        z-index: 5;
+        position: absolute;
+        margin-left: 36vw;
+        margin-top: 67vh;
+    }
+    
+    .camara {
+        z-index: 5;
+        position: absolute;
+        margin-left: 75vw;
+        margin-top: 145vh;
+    }
+
+    /* Seccion Contacto */
+    .Contacto {
+        width: 100vw;
+        height: 100vh;
     }
 }
