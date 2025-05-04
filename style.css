@@ -1153,5 +1153,113 @@ ol,ul{
     .Contacto {
         width: 100vw;
         height: 100vh;
+        display: flex;
+        flex-direction: row;
+        flex-flow: row wrap;
+    }
+
+    .imagengrande {
+        padding-top: 1vh;
+        padding-bottom: 0vh;
+        height: 24vh;
+    }
+
+    .imagengrande > img {
+        width: 70vw;
+    }
+    
+    .fecha {
+        padding-top: 0vh;
+        font-family: 'gulfs-display';
+        padding-left: 4vw;
+    }
+    
+    .fecha > h1 {
+        font-size: 9vw;
+    }
+    
+    .grandia {
+        font-size: 3.5vw;
+    }
+    
+    .date {
+        width: 80vw;
+    }
+    
+    .politicas {
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(6, 15vw);
+        grid-template-rows: repeat(2, 100%);
+        grid-template-areas: 'a1 a1 a1 a1 a1 a1'
+                            'a2 a2 a2 a3 a4 a5';
+        
+        background-color: #fff;
+    }
+    
+    .redes  {
+        grid-area: a1;
+        font-family: anybody;
+        font-size: 2vw;
+        text-align: center;
+        padding-top: 5%;
+        border: 1px solid black;
+        background-color: #fff;
+    }
+    
+    .politicaspriv {
+        grid-area: a2;
+        font-size: 2.7vw;
+        text-align: center;
+        padding-top: 5%;
+    }
+    
+    .facebook {
+        display: flex;
+        grid-area: a3;
+        border: 1px solid black;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .iconfb {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20%;
+        padding: 5%;
+    
+    }
+    
+    .ig {
+        display: flex;
+        grid-area: a4;
+        border: 1px solid black;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .iconig {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
+    
+    
+    }
+    
+    .msg {
+        display: flex;
+        grid-area: a5;
+        border: 1px solid black;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .iconmsg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30%;
     }
 }
