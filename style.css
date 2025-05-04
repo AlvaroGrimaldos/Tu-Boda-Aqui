@@ -39,6 +39,8 @@ ol,ul{
     align-items: right;
     flex-wrap: wrap;
     padding: 0 2rem;
+    position: relative;
+    z-index: 11;
 }
 
 .menu_hamburguesa{
@@ -96,6 +98,8 @@ ol,ul{
     }
     .link:hover{
         background-color: rgb(251,180,204);
+        z-index: 10;
+        position: relative;
     }
 }
 
@@ -1262,4 +1266,7 @@ ol,ul{
         justify-content: center;
         width: 30%;
     }
+
+    /* Texto menu Hamburguesa */
+    
 }
