@@ -48,7 +48,11 @@ ol,ul{
 }
 
 .menu_hamburguesa:checked + .ul_links {
-    height: calc(100vh - 80px);
+    height: 53.5vh;
+    width: 40vw;
+    padding-right: 0px;
+    margin-right: 0px;
+    right: 0px;
 }
 
 .list_icon {
@@ -59,14 +63,13 @@ ol,ul{
 .ul_links {
     width: 100%;
     background-color: rgb(251,180,204);
-    position: absolute;
+    position: relative;
     top: 80px;
     left: 0;
     height: 0;
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     gap: 3rem;
 
@@ -75,7 +78,7 @@ ol,ul{
 
 .link {
     width: 100vw;
-    font-size: 3rem;
+    font-size: 1.5rem;
     color: black;
     font-weight: bold;
 }
