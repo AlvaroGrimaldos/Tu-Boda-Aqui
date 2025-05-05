@@ -835,9 +835,11 @@ ol,ul{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 20%;
+    width: 17%;
     padding: 5%;
-
+    border: 1px solid black;
+    border-radius: 5vw;
+    background-color: aquamarine;
 }
 
 .ig {
@@ -853,8 +855,10 @@ ol,ul{
     align-items: center;
     justify-content: center;
     width: 30%;
-
-
+    border: 1px solid black;
+    border-radius: 5vw;
+    padding: 0.3vw;
+    background-color: rgb(251,180,204);
 }
 
 
@@ -871,6 +875,10 @@ ol,ul{
     align-items: center;
     justify-content: center;
     width: 30%;
+    border: 1px solid black;
+    border-radius: 5vw;
+    padding: 0.3vw;
+    background-color: rgb(251,243,93);
 }
 
 /* INICIO CODIGO RESPONSIVE PARA PANTALLAS MENORES A 768px */
