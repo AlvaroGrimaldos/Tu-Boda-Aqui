@@ -226,6 +226,16 @@ ol,ul{
     position: absolute;
     top: 58%;
     margin-left: 65%;
+    animation: rotar 2s linear infinite;
+}
+
+@keyframes rotar {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
 }
 
 /* Seccion Nosotros */
